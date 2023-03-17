@@ -9,6 +9,9 @@ Plug 'nvim-tree/nvim-tree.lua'
 Plug 'rust-lang/rust.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc-highlight'
+Plug 'lumiliet/vim-twig'
+
 call plug#end()
 lua require('plugins')
+lua require('autocomplete')
 
