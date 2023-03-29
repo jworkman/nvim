@@ -10,6 +10,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc-highlight'
 Plug 'lumiliet/vim-twig'
+Plug 'posva/vim-vue'
 
 call plug#end()
 lua require('plugins')
