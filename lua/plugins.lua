@@ -36,6 +36,19 @@ vim.opt.termguicolors = true
 
 -- empty setup using defaults
 require("nvim-tree").setup({
+	filesystem = {
+		bind_to_cwd = false,
+		follow_current_file = true,
+		filtered_items = {
+			visible = true,
+			hide_dotfiles = false,
+			hide_gitignored = false,
+			hide_by_name = {
+				".DS_Store",
+				"thumbs.db"
+			},
+		},
+	},
   renderer = {
     icons = {
       glyphs = {
@@ -74,3 +87,5 @@ end
 
 vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })
 
+
+require('Comment').setup()
