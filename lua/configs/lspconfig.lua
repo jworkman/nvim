@@ -4,7 +4,12 @@ require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
 
 -- EXAMPLE
-local servers = { "html", "cssls" }
+-- local servers = { "html", "harper-ls", "cssls", "phpactor", "some-sass-language-server", "clangd",
+--   "css-variables-language-server",
+--   "dockerfile-language-server", "fixjson", "cpptools", "htmlhint", "cmakelang", "jsonld-lsp",
+--   "intelephense", "phpcs", "rust-analyzer", "yaml-language-server", "style-lint",
+--   "sql-formatter","vue-language-server", "twigcs", "twig-cs-fixer", "twiggy-language-server", "vtsls" }
+local servers = { "html", "cssls", "phpactor" }
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
