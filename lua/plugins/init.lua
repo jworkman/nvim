@@ -77,10 +77,10 @@ return {
     lazy = false,
   	opts = {
   		ensure_installed = {
-        "vim", "lua", "vimdoc", "toml", "yaml", "json", "makefile", "bash",
+        "vim", "lua", "vimdoc", "toml", "yaml", "json", "bash",
         "html", "css", "scss", "php", "vue", "typescript", "javascript",
         "c", "c_sharp", "cmake", "make", "markdown", "nginx", "liquid", "twig",
-        "rust", "ada", "sql", "ruby", "python", "pug", "haml", "xml", "graphql",
+        "rust", "ada", "sql", "ruby", "python", "pug", "xml", "graphql",
         "dockerfile", "dot", "cpp", "angular", "git_config", "gitignore",
         "htmldjango", "http", "java", "passwd", "regex", "zig"
   		},

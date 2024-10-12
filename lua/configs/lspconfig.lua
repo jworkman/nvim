@@ -9,7 +9,7 @@ local lspconfig = require "lspconfig"
 --   "dockerfile-language-server", "fixjson", "cpptools", "htmlhint", "cmakelang", "jsonld-lsp",
 --   "intelephense", "phpcs", "rust-analyzer", "yaml-language-server", "style-lint",
 --   "sql-formatter","vue-language-server", "twigcs", "twig-cs-fixer", "twiggy-language-server", "vtsls" }
-local servers = { "html", "cssls", "phpactor" }
+local servers = { "html", "cssls", "phpactor", "clangd", "intelephense" }
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
